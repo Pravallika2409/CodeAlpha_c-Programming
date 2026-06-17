@@ -154,6 +154,170 @@ Input Password: 1234
 Login Successful! Welcome, pravallika！
 
 
+# Sudoku Solver in C++
+
+## Introduction
+
+This project includes a Sudoku Solver using the Backtracking Algorithm in C++. It solves a standard 9x9 Sudoku grid where empty cells get filled according to the rules of Sudoku. Moreover, one can either take the default Sudoku or input any Sudoku puzzle through the user's choice.
+
+## Features
+
+* Stores Sudoku puzzle using the concept of two-dimensional arrays.
+* Solves Sudoku puzzle using the Backtracking Algorithm.
+* Checks Sudoku rules before placing any number.
+* Validates constraints related to rows, columns, and 3x3 subgrids.
+* Supports predefined as well as self-input Sudoku puzzles.
+* Shows original as well as solved Sudoku grids on the screen.
+
+## Technologies
+
+* C++
+* Object-oriented programming concepts
+* Recursion
+* Backtracking Algorithm
+
+## Working Principle
+
+1. Input Sudoku puzzle or use a default puzzle.
+2. Cells that have empty boxes store the value '0'.
+3. Look for any empty cells.
+4. Place numbers from 1 to 9 one by one and check if any number satisfies the rules of Sudoku or not.
+5. After getting a valid number, fill the corresponding cell with it.
+6. Repeat the above process recursively.
+7. If there is no valid solution, then the algorithm backtracks and tries again.
+
+### Input
+
+The program allows users to:
+
+* Play the default Sudoku Puzzle.
+* Provide a personalized Sudoku Puzzle of size 9×9 using 0 for empty spaces.
+
+### Output
+
+* Display the Sudoku puzzle before solving.
+* Display the solved Sudoku puzzle if the puzzle has a solution.
+* Display relevant messages if the puzzle cannot be solved.
+
+### Learning Objectives
+
+From this project, I have learned:
+
+* The concepts behind Recursion and Backtracking algorithms.
+* Solving problems with the help of algorithms.
+* Using two-dimensional arrays in C++ programming.
+* Console application development.
+
+### Conclusion
+
+In this project, we demonstrate how to use a backtracking approach to develop a Sudoku solver.
+
+
+
+# Banking System in C++
+
+## Description
+
+The Banking System is a terminal-based software application that was written in C++. This program has been created with the help of OOP concepts. One can use this program to create several bank accounts. Some of the key functionalities of the program include creating bank accounts, depositing, withdrawing, transferring funds, displaying account details and transaction history.
+
+## Features
+
+* Creation of numerous customer accounts
+* Creation of unique account numbers
+* Depositing of money in the bank account
+* Withdrawal of money after checking for the balance
+* Transfer of funds from one account to another
+* Viewing of account details and balance
+* Recording of transaction history
+* Details of all the customers' bank accounts
+
+## Tools and Technologies
+
+* C++
+* OOP (Class, Objects)
+* Vectors
+* STL (Standard Template Library)
+
+## Class Implemented
+
+### Customer Class
+
+Keeps details of the customers including their names and the bank account attached to them.
+
+### Account Class
+
+Helps in storing the following features: Account Number, Balance, Deposits, Withdrawals, Transfer Funds, and Transaction History.
+### Transaction Class
+
+
+
+Holds data about each transaction including the type of transaction and the amount involved in the transaction.
+
+
+
+## How the System Works
+
+
+
+1. Users have the ability to create a new account through entering customers' details and the balance of that account.
+
+2. The system stores information about the created account and ensures no duplication in account numbers.
+
+3. Users can make deposits and withdrawals from their accounts.
+
+4. Transfers can be made from one account to another.
+
+5. All transactions made can be recorded.
+
+6. Account details and all available accounts can be shown to users.
+
+
+
+## Learning Outcomes
+
+
+
+Through this project I learnt how to
+
+
+
+* Implement OOP concepts.
+
+* Develop classes.
+
+* Manage data using vectors.
+
+* Understand transaction processes.
+
+* Develop menu driven applications.
+
+* Manage inputs and validate accounts data.
+
+
+
+## Future Improvements
+
+
+
+* File handling for persistent storage.
+
+* Password protected accounts.
+
+* Calculation of interest and managing loans.
+
+* GUI.
+
+* Integration with database for large scale projects.
+
+
+
+## Conclusion
+
+
+
+Banking System project is a successful example of OOP implemented in C++ language. This project effectively simulated banking processes including managing accounts, making deposits, withdrawals, transfers, transactions etc.The project provides a strong foundation for understanding banking applications and software development concepts.
+
+
 
 ## Author
 
